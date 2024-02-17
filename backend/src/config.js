@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "NFT BEES CONSTRUCTOR";
+const namePrefix = "Bees_Constructor";
 const description = "Explore our unique collection of NFTs backed by Real State investment. From historic homes to luxury villas, each NFT represents an exclusive opportunity in the Real State Market. Join us to change the way you invest in Real State!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -48,8 +48,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'BEES_CONSTRUCTOR';
-const CONTRACT_SYMBOL = 'BEEC';
+const CONTRACT_NAME = 'Bees_Costructor';
+const CONTRACT_SYMBOL = 'BEC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x370E1F28D945Fb135f0F7b4d2824B2197b2aCA89';
 const TREASURY_ADDRESS = '0x0130777891776Da9F8f4f81eCcE755912326bE76';
